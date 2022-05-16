@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100vh;
+  background: #f9f9fa;
+}
+
+.container .left {
+  width: 45%;
+}
+
+.container .left .left-box {
+  padding: 40px 30px 15px 80px;
+}
+
+.container .left .left-box .title {
+  font-weight: 200;
+  font-size: 55px;
+  letter-spacing: 3px;
+}
+
+.container .left .left-box .title span {
+  font-weight: 400;
+  color: #70c53a;
+}
+
+.container .left .left-box .text {
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+.container .center {
+  width: 35%;
+  padding: 2% 0;
+  height: 100vh;
+  background-color: blue;
+  background-image: url("/img/imagem_saude_financeira.jpg");
+  background-size: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container .right {
+  padding: 5px 80px 0 20px;
+  text-align: right;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .right .right-title {
+  color: #70c53a;
+  font-weight: 400;
+}
+
+.container .right .list {
+  list-style: none;
+}
+
+.container .right .right-bottom-links p {
+  padding: 0;
+  margin: 0;
+}
+
+.container .right .right-bottom-links p:first-child {
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=style.css.map */
